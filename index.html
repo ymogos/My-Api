@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>AJAX/PHP/CURL/JSON example</title>
+		<meta name="description" content="AJAX/PHP/CURL/JSON example">
+		<meta name="author" content="Yohannes Andu">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<style>
+			.table {
+			margin-bottom: 0px;	
+			border: 1px solid #ddd;
+			}
+		
+			#result{
+				
+				padding: 8px;
+				border: 1px solid #ddd;
+				min-height: 400px;
+				border-top: 0px;
+			}
+			th {
+				text-align: center;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		
+		<div class='container'>
+	   <h3>Yohannes Andu</h3>
+		<div class='row'>
+			<div class='col-sm-12'>
+
+			
+      <table class='table table-bordered'>
+		  <thead class='thead-dark'>
+			  <tr>
+				  <th>Name</th>
+				  <th>Description</th>
+				  <th></th>
+				  
+			  </tr>
+		  </thead>
+		  <tbody>
+			  <tr>
+				 <td>1. Earthquakes</td> 
+				 <td>returns a list of earthquakes, ordered by magnitude</td>
+				 <td><button id="btnEarthquake" class='btn btn-primary form-control' >Submit</button></td>
+			  </tr>
+			  <tr>
+				<td>2. Astergdem</td> 
+				<td>ASTER GDEM is a product of METI and NASA.</td>
+				<td><button id="btnastergdem" class='btn btn-primary form-control'>Submit</button></td>
+			 </tr>
+			  <tr>
+				<td>3. Street name LookUp</td> 
+				<td>Returns a list of streets which start with the search term.</td>
+				<td><button id="btnstreet" class='btn btn-primary form-control'>Submit</button></td>
+			 </tr>
+			
+			 
+		  </tbody>
+	  </table>
+	  <div id="result">
+        
+	</div>
+</div>
+</div>
+</div>
+
+		<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+	 <script type="application/javascript" src="libs/js/script.js"></script> 
+
+	</body>
+
+</html>
